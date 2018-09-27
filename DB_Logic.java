@@ -20,7 +20,7 @@ public class DB_Logic implements DB_Variables {
 		try {
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, user, password);     //Establishing a connection to data source and setting 
-																		//the user ID and password 
+										//the user ID and password 
 			st = con.createStatement();
 			
 			} catch (Exception e) {
